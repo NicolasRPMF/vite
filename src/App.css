@@ -50,7 +50,7 @@
 }
 
 .checkout {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 button {
@@ -64,7 +64,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #10275c;
 }
 
 button:disabled {
@@ -73,7 +73,7 @@ button:disabled {
 }
 
 .title {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin-top: 30px;
   color: hwb(0 100% 0%);
   text-decoration: underline;
@@ -143,4 +143,15 @@ button:disabled {
 
 .footer a {
   color: #fff;
+}
+
+
+.product-item button {
+  font-size: 12px;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+
+.product-item button+button {
+  margin-left: 5px;
 }
